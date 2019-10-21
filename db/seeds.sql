@@ -7,9 +7,9 @@ VALUES
     ("Power Ranger", true),
     ("African Burger Best Burger", true),
     ("Me? A Vegan?", false),
-    ("Wu-Tang-Clan", true);
-    ("The Yummy Yummy", true);
-    ("Waterfall veggie", false);
+    ("Wu-Tang-Clan", true),
+    ("The Yummy Yummy", true),
+    ("Waterfall veggie", false),
     ("Arigato Gozaimasu", true);
     
 -- displays all burgers  
