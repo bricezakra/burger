@@ -37,7 +37,7 @@ This application is deployed on Heroku. Eat-Da-Burger will allow you to view, or
 
 ## Heroku Deployment link 
 
-    https://myburgerapplication.herokuapp.com/
+https://myburgerapplication.herokuapp.com/
 
 
 
