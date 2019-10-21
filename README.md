@@ -1,16 +1,16 @@
 # burger
 
-Eat-da-Burger is a fully-responsive and full-stack application restaurant that let users input the name of a specific burger they would like to eat.
+Eat-Da-Burger is a fully-responsive and full-stack application restaurant that let users input the name of a specific burger they would like to eat.
 
 
 ## Requirements
 
 You will need to have the following Node.js packages installed prior to running this application: 
 
-- body-parser, 
-- express, express,
-- handlebars,
-- mysql.
+- body-parser
+- express
+- handlebars
+- mysql
 
 
 ## Instructions
