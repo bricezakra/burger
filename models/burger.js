@@ -4,7 +4,7 @@ var orm = require("../config/orm.js");
 // burger model
 var burger = {
     select: function(cb) {
-        orm.select(function(response) {
+        orm.selectAll(function(response) {
             cb(response);
         });
     },
