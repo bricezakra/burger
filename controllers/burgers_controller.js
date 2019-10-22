@@ -9,7 +9,7 @@ var burger = require("../models/burger.js");
 
 // default route to display all burgers
 router.get("/", function(request, response) {
-    burger.selectAll(function(data) {
+    burger.select(function(data) {
         response.render("index", { burgers: data });
     });
 });
