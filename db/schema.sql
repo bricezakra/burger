@@ -7,8 +7,8 @@ USE burgers_db;
 
 -- create burger table
 CREATE TABLE burgers (
-id INTEGER(10) AUTO_INCREMENT NOT NULL,
-burger_name VARCHAR(250) NOT NULL,
-devoured BOOLEAN NOT NULL,
-PRIMARY KEY (id)
+    id INTEGER(10) AUTO_INCREMENT NOT NULL,
+    burger_name VARCHAR(250) NOT NULL,
+    devoured BOOLEAN NOT NULL,
+    PRIMARY KEY (id)
 );
