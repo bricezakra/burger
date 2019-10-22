@@ -15,14 +15,14 @@ router.get("/", function(request, response) {
 });
 
 // route to add a new burger to the burger database
-router.post("/burgers", function(request, response) {
+router.post("/api/burgers", function(request, response) {
     burger.insert(request.body.burgerName, function(data) {
         response.json({ id: data.insertId });
     });
 });
 
 // route to update the status of a burger in the database
-router.put("/burgers/:id", function(request, response) {
+router.put("/api/burgers/:id", function(request, response) {
     burger.update(request.body.devoured, request.params.id, function(data) {
         if (data.affectedRows === 0) {
             return response.status(404).end();
