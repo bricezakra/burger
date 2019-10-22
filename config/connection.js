@@ -1,7 +1,7 @@
 // initialize Node.js package
 var mysql = require("mysql");
 var connection;
-
+console.log("JAWSDB_URL", process.env.JAWSDB_URL);
 // if connecting remotely, use JawsDB
 if (process.env.JAWSDB_URL) {
     connection = mysql.createConnection(process.env.JAWSDB_URL);
